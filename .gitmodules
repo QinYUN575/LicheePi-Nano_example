@@ -1,0 +1,3 @@
+[submodule "lvgl/lv_port_linux_frame_buffer"]
+	path = lvgl/lv_port_linux_frame_buffer
+	url = https://github.com/lvgl/lv_port_linux_frame_buffer
