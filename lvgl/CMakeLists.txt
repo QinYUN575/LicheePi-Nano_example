@@ -4,6 +4,8 @@ project(Ui C)
 SET(CROSS_COMPILE 1)
 set(CMAKE_SYSTEM_NAME Linux)
 
+# add_executable(main main.c mouse_cursor_icon.c ${SOURCES} ${INCLUDES})
+
 #引入所有编译用到的源码目录
 include_directories(
     lv_port_linux_frame_buffer/lv_drivers
@@ -68,6 +70,7 @@ add_executable(Ui
     ${LV_examples}
     ${LVgl}
     ${DISPLAY}
+    ${INDEV}
     ${ASSETS}
     ${BENCHMARK}
     ${ENCODER}
